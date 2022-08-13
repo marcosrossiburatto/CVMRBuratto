@@ -14,7 +14,7 @@ function sementevivaFunction() {
 
   let informationBlockImg = document.createElement('img');
   informationBlockAhref.appendChild(informationBlockImg).className = 'information__block__sementeviva__title__img';
-  informationBlockImg.src = "./imgs/logos/Logo_Semente_Viva.jpg";
+  informationBlockImg.src = "./imgs/logos/logo_ti_semente_viva.png";
   informationBlockImg.alt = "Logo_sementeviva.jpg";
 
   let informationBlockDatas = document.createElement('div');
@@ -39,12 +39,9 @@ function sementevivaFunction() {
   sementevivaTitleParagraph.className = 'sementeviva__title__02';
   informationBlockSementeVivaAhref.appendChild(sementevivaTitleParagraph).textContent = 'Desenvolvimento Humano';
 
-  let informationBlockTitleActivities = document.createElement('p');
-  informationBlockDatas.appendChild(informationBlockTitleActivities).className = 'information__block__sementeviva__title__activities';
-
-  let textActivities = document.createElement('span');
+  let textActivities = document.createElement('p');
   textActivities.className = 'sementeviva__text__activities';
-  informationBlockTitleActivities.appendChild(textActivities).textContent = 'Empresa própria de desenvolvimento emocional e gerenciamento de equipes de alta performance.';
+  informationBlockDatas.appendChild(textActivities).textContent = 'Empresa própria de desenvolvimento emocional e gerenciamento de equipes de alta performance.';
 
   let informationBlockText = document.createElement('p');
   sementevivaDiv.appendChild(informationBlockText).className = 'sementeviva__information__block__text';

@@ -14,7 +14,7 @@ function mentorshipFunction() {
 
   let informationBlockImg = document.createElement('img');
   informationBlockAhref.appendChild(informationBlockImg).className = 'information__block__mentorship__title__img';
-  informationBlockImg.src = "./imgs/logos/Logo_Mentorship.png";
+  informationBlockImg.src = "./imgs/logos/logo_ti_mentorship.png";
   informationBlockImg.alt = "Logo_Mentorship.png";
 
   let informationBlockDatas = document.createElement('div');
@@ -33,13 +33,13 @@ function mentorshipFunction() {
 
   let mentorshipTitleParagraph01 = document.createElement('p');
   mentorshipTitleParagraph01.className = 'mentorship__title__01';
-  informationBlockMentorshipAhref.appendChild(mentorshipTitleParagraph01).textContent = 'Mentoria em Gerenciamento de Projetos';
+  informationBlockMentorshipAhref.appendChild(mentorshipTitleParagraph01).textContent = 'Mentoria';
 
   let mentorshipTitleParagraph02 = document.createElement('p');
   mentorshipTitleParagraph02.className = 'mentorship__title__02';
-  informationBlockMentorshipAhref.appendChild(mentorshipTitleParagraph02).textContent = '';
+  informationBlockMentorshipAhref.appendChild(mentorshipTitleParagraph02).textContent = 'Gerenciamento de Projetos';
 
-  let textActivities = document.createElement('span');
+  let textActivities = document.createElement('p');
   textActivities.className = 'mentorship__text__activities';
   informationBlockDatas.appendChild(textActivities).textContent = 'Atividade on-line para esclarecer dúvidas sobre atuações em Gerenciamento de Projetos.';
 
