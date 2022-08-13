@@ -15,7 +15,7 @@ function footerFunction() {
 
   let iconsBlockAhref = document.createElement('a');
   footerTitleParagraph.appendChild(iconsBlockAhref).className = 'footer__icons__block__ahref';
-  iconsBlockAhref.href = 'https://web.facebook.com/SementeVivaDesenvolvimentoHumano';
+  iconsBlockAhref.href = 'https://www.facebook.com/SementeVivaDesenvolvimentoHumano';
   iconsBlockAhref.target = '_blank';
   iconsBlockAhref.rel = 'noreferrer noopener';
   iconsBlockAhref.title = 'facebook_semente_viva';
@@ -51,7 +51,7 @@ function footerFunction() {
 
   iconsBlockAhref = document.createElement('a');
   footerTitleParagraph.appendChild(iconsBlockAhref).className = 'footer__icons__block__ahref';
-  iconsBlockAhref.href = 'https://www.marcosanand.com.br';
+  iconsBlockAhref.href = 'https://marcosrossiburatto.github.io/cv_ti.html';
   iconsBlockAhref.target = '_blank';
   iconsBlockAhref.rel = 'noreferrer noopener';
   iconsBlockAhref.title = 'site_semente_viva';
@@ -116,9 +116,16 @@ function footerFunction() {
   iconBlockImg.src = "./imgs/redes/email.png";
   iconBlockImg.alt = "logo_email";
 
+  iconsBlockAhref = document.createElement('a');
+  footerTitleParagraph.appendChild(iconsBlockAhref).className = 'footer__icons__block__ahref';
+  iconsBlockAhref.href = 'mailto:marcosrburatto@gmail.com';
+  iconsBlockAhref.target = '_blank';
+  iconsBlockAhref.rel = 'noreferrer noopener';
+  iconsBlockAhref.title = 'mail_to';
+
   footerInformationTextSpan = document.createElement('span');
   footerInformationTextSpan.className = 'footer__information__text';
-  footerTitleParagraph.appendChild(footerInformationTextSpan).textContent = 'marcosrburatto@gmail.com';
+  iconsBlockAhref.appendChild(footerInformationTextSpan).textContent = 'marcosrburatto@gmail.com';
 
   footerTitleParagraph = document.createElement('p');
   footerDiv.appendChild(footerTitleParagraph).className = 'footer__block';
@@ -146,8 +153,8 @@ function footerFunction() {
 
   iconsBlockAhref = document.createElement('a');
   footerTitleParagraph.appendChild(iconsBlockAhref).className = 'footer__icons__block__ahref';
-  iconsBlockAhref.href = './pdfs/CV_Marcos_Buratto.pdf';
-  iconsBlockAhref.download = 'CV_Marcos_Buratto.pdf';
+  iconsBlockAhref.href = './pdfs/CVTI_Marcos_Buratto.pdf';
+  iconsBlockAhref.download = 'CVTI_Marcos_Buratto.pdf';
   iconsBlockAhref.target = '_blank';
   iconsBlockAhref.rel = 'noreferrer noopener';
   iconsBlockAhref.title = 'pdf';
@@ -155,6 +162,14 @@ function footerFunction() {
   footerInformationTextSpan = document.createElement('span');
   footerInformationTextSpan.className = 'footer__information__text';
   iconsBlockAhref.appendChild(footerInformationTextSpan).textContent = 'Download CV';
+
+
+
+
+
+
+
+
 
   screen.appendChild(footerDiv);
 }
